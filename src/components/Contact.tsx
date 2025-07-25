@@ -38,6 +38,11 @@ const Contact = () => {
   };
 
   const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Sriya_Gajawada_Resume.pdf';
+    link.click();
+    
     toast({
       title: "Resume download started",
       description: "Your resume download will begin shortly.",
