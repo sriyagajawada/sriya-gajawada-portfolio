@@ -36,11 +36,6 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border/50 text-center">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> by Sriya Gajawada
-          </p>
-        </div>
       </div>
     </footer>
   );
