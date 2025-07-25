@@ -40,7 +40,7 @@ const Contact = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'Sriya_Gajawada_Resume.pdf';
+    link.download = 'Gajawada_Sriya.pdf';
     link.click();
     
     toast({
