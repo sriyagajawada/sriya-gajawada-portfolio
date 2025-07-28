@@ -35,7 +35,7 @@ const Education = () => {
       icon: Award
     },
     {
-      title: "Grade 'O' (Outstanding) – 87.22% in NCET",
+      title: "Grade 'O' (Outstanding) – 85% in NCET",
       organization: "MyAnatomy",
       year: "2024",
       icon: Award
