@@ -88,7 +88,7 @@ const Hero = () => {
 
           <div className="flex justify-center gap-6 pt-8">
             <a 
-              href="https://github.com/sriya-gajawada" 
+              href="https://github.com/sriyagajawada" 
               target="_blank" 
               rel="noopener noreferrer"
               className="glass-card p-3 hover:bg-white/10 transition-all duration-300 hover:scale-110"
@@ -96,7 +96,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/sriyagajawada" 
+              href="https://www.linkedin.com/in/sriya-gajawada-a42779288/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="glass-card p-3 hover:bg-white/10 transition-all duration-300 hover:scale-110"

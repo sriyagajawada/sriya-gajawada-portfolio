@@ -81,7 +81,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sriya-gajawada",
+      href: "https://www.linkedin.com/in/sriya-gajawada-a42779288/",
       color: "hover:text-accent"
     }
   ];
