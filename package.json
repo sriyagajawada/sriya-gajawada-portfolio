@@ -7,11 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build && echo. > dist\\.nojekyll && echo /sriya-gajawada-portfolio > dist\\CNAME",
+    "deploy": "gh-pages -d dist --dotfiles --silent"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -68,7 +65,7 @@
     "@eslint/js": "^9.9.0",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.5.5",
-    "@types/react": "^18.3.3",
+    "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.20",

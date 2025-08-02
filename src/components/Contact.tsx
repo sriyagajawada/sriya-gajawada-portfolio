@@ -13,6 +13,7 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -74,13 +75,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/sriya-gajawada",
+      href: "https://github.com/sriyagajawada",
       color: "hover:text-primary"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sriyagajawada",
+      href: "https://linkedin.com/in/sriya-gajawada",
       color: "hover:text-accent"
     }
   ];
