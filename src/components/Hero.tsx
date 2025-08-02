@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail, Phone, MapPin, Download } from 'lucide-react';
-import heroBackground from '@/assets/hero-bg.jpg';
+
 
 const Hero = () => {
   const handleDownloadResume = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(${heroBackground})`,
+          
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
